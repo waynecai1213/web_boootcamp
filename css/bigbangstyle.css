@@ -1,0 +1,66 @@
+
+body{
+    text-align: center;
+    background-color:  rgb(25, 26, 27);
+    color: aliceblue;
+}
+#intro {
+    /* position:relative; */
+    width: 60%;
+    text-align: center;
+    margin: auto;
+    
+}
+
+h1 {
+    /* font-family: 'Pacifico', cursive; */
+    font-family: 'Darker Grotesque', sans-serif;
+    font-weight: 700;
+    font-size: 56px;
+}
+
+p{
+    
+    text-align: left;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+#charctImg{
+    /* position:fixed; */
+    width: 80%;
+    height: 400px;;
+    margin: auto;
+    /* text-align : center; */
+    display: -webkit-flex;
+    display:         flex;
+    -webkit-align-items: center;
+            align-items: center;
+    -webkit-justify-content: center;
+          justify-content: center;
+}
+
+
+.characters{
+    width: 10%;
+    /* transform: scale(2); */
+    margin:auto;
+    transition: all 0.5s ease;
+    
+}
+
+.characters img{
+    width: 100%;
+}
+.characters:hover{
+    /* background-color: yellow; */
+    width: 14%;
+
+}
+
+#episode{
+    width: 60%;
+    text-align: center;
+    margin: auto;
+}
