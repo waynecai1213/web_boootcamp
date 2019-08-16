@@ -1,0 +1,7 @@
+{
+    "characters":[
+      {"firstName":"John", "castName":"Johnny Galecki"}, 
+      {"firstName":"Anna", "lastName":"Smith"},
+      {"firstName":"Peter", "lastName":"Jones"}
+    ]
+    }

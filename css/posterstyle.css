@@ -3,7 +3,7 @@ body{
     max-width: 40%;
     height: 100%;
     margin: auto;
-    background-color:white;
+    background-color:rgba(255, 255, 255, 0.425);
     font-family: 'Rajdhani', sans-serif;
     
 }
@@ -36,6 +36,23 @@ body{
     
 }
 
+/* .header-01-box-01:hover{
+    width: 50%;
+    padding-top: 15px;
+    padding-left:44px;
+    height: 100%;
+    background-color:rgb(255, 153, 0);
+    display: flex;
+}
+
+.header-01-box-01:hover p{
+    color :rgb(25, 26, 27);
+    font-size:  1.6vw;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}  */
+
 .header-01-box-01 p{
     color : rgb(255, 153, 0);
     font-size:  1.6vw;
@@ -60,6 +77,8 @@ body{
     font-weight: bold;
 
 } 
+
+
 
 .header-02{
     display: flex;

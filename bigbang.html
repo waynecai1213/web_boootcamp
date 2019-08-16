@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>The Big Bang Theory</title>
     <link rel="stylesheet" href="./css/bigbangstyle.css">
+    
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Darker+Grotesque:400,500,700&display=swap" rel="stylesheet">
 </head>
@@ -14,14 +15,15 @@
         <h1>The Big Bang Theory</h1>
         <p>The Big Bang Theory has now finished its twelve-season run on CBS. The hour-long series finale aired Thursday, May 16, 2019. On August 22, 2018, CBS and Warner Bros. announced that The Big Bang Theory would be ending with its twelfth season. The twelfth season premiered with a special broadcast on Monday, September 24, 2018 and moved back to its regular Thursday night time period on September 27.</p>
     </div>
-<div id="charctImg">
-    <a class="characters"  href="https://the-big-bang-theory.com/characters.Sheldon/"> <img src="bigbangimg/Sheldon.png" alt="Sheldon" > </a>
-    <a class="characters"  href="https://the-big-bang-theory.com/characters.Amy/"> <img  src="bigbangimg/Amy.png" alt="Amy" ></a>
-    <a class="characters"  href="https://the-big-bang-theory.com/characters.Leonard/"> <img src="bigbangimg/Leonard.png" alt="Leonard" > </a>
-    <a class="characters"  href="https://the-big-bang-theory.com/characters.Penny/"> <img  src="bigbangimg/Penny.png" alt="Penny" ></a> 
-    <a class="characters"  href="https://the-big-bang-theory.com/characters.Bernadette/"> <img src="bigbangimg/Bernadette.png" alt="Bernadette" > </a>
-    <a class="characters"  href="https://the-big-bang-theory.com/characters.Howard/"> <img  src="bigbangimg/Howard.png" alt="Howard" ></a> 
-    <a class="characters"  href="https://the-big-bang-theory.com/characters.Raj/"> <img src="bigbangimg/Raj.png" alt="Raj" > </a>
+   
+<div id="charctImg" >
+    <a class="characters"  href="https://the-big-bang-theory.com/characters.Sheldon/"> <img onmouseover="document.getElementById('name').textContent='Sheldon'" src="bigbangimg/Sheldon.png" alt="Sheldon" > </a>
+    <a class="characters"  href="https://the-big-bang-theory.com/characters.Amy/"> <img onmouseover="document.getElementById('name').textContent='Amy'" src="bigbangimg/Amy.png" alt="Amy" ></a>
+    <a class="characters"  href="https://the-big-bang-theory.com/characters.Leonard/"> <img onmouseover="document.getElementById('name').textContent='Leonard'" src="bigbangimg/Leonard.png" alt="Leonard" > </a>
+    <a class="characters"  href="https://the-big-bang-theory.com/characters.Penny/"> <img  onmouseover="document.getElementById('name').textContent='Penny'" src="bigbangimg/Penny.png" alt="Penny" ></a> 
+    <a class="characters"  href="https://the-big-bang-theory.com/characters.Bernadette/"> <img onmouseover="document.getElementById('name').textContent='Bernadette'" src="bigbangimg/Bernadette.png" alt="Bernadette" > </a>
+    <a class="characters"  href="https://the-big-bang-theory.com/characters.Howard/"> <img  onmouseover="document.getElementById('name').textContent='Howard'" src="bigbangimg/Howard.png" alt="Howard" ></a> 
+    <a class="characters"  href="https://the-big-bang-theory.com/characters.Raj/"> <img onmouseover="document.getElementById('name').textContent='Raj'" src="bigbangimg/Raj.png" alt="Raj" > </a>
   
     <!-- 
      <img class="characters" src="bigbangimg/Sheldon.png" alt="Leonard" >
@@ -32,6 +34,11 @@
     <img class="characters" src="bigbangimg/Howard.png" alt="Howard">
     <img class="characters" src="bigbangimg/Raj.png" alt="Raj"> -->
 </div>
+
+<div > 
+        <h1 id="name">The Big Bang Theory</h1>
+    </div>
+    
     <div id="episode">
         <p>The Big Bang Theory has now finished its twelve-season run on CBS. The hour-long series finale aired Thursday, May 16, 2019. On August 22, 2018, CBS and Warner Bros. announced that The Big Bang Theory would be ending with its twelfth season. The twelfth season premiered with a special broadcast on Monday, September 24, 2018 and moved back to its regular Thursday night time period on September 27.</p>
 
@@ -41,4 +48,8 @@
         <img src="./bigbangimg/footer_logo.png" alt="">
     </div>
 </body>
+
+<script src="./javascript/bigbangstyle.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
 </html>
